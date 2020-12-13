@@ -1,0 +1,80 @@
+name: SyrocraftMaster
+version: 1.0
+api-version: 1.14
+main: syrocraft.Main
+description: Custom Syrocraft Stuff :D
+commands:
+  CreateDropTable:
+    description: Create a new drop table.
+  CreateDrop:
+    description: Create a new drop for a custom drop table.
+  RemoveDropTable:
+    description: Delete a drop table file.
+  RemoveDrop:
+    description: Remove a drop from a custom drop table.
+  GetDrop:
+    description: Get a drop from a custom drop table.
+  Expeditions:
+    description: Get a drop from a custom drop table.
+  CreateExpedition:
+    description: Get a drop from a custom drop table.
+  SetExpeditionOrder:
+    description: 
+  EnableExpedition:
+    description: 
+  DisableExpedition:
+    description: 
+  CreateExpeditionTask:
+    description: 
+  RemoveExpeditionTask:
+    description:
+  StartExpedition:
+    description:
+  GetExpeditionTask:
+    description:
+  RemoveExpedition:
+    description:
+  GetExpeditionInfo:
+    description:
+  GetVoteDrop:
+    description:
+  Playtime:
+    description:
+  ClaimVoteRewards:
+    description:
+  AddStatistic:
+    description:
+  RemoveStatistic:
+    description:
+  GetStatistic:
+    description:
+  SetStatistic:
+    description:
+  UnlockedTitles:
+    description:
+  LockedTitles:
+    description:
+  CreateTitle:
+    description:
+  AddTitleRequirement:
+    description:
+  SetTitle:
+    description:
+  RemoveTitle:
+    description:
+  RemoveTitleRequirement:
+    description:
+  GetWishingWellDrop:
+    description:
+  GetBossDrop:
+    description:
+  SyroExecute:
+    description:
+  SeenList:
+    description:
+  SyroMessage:
+    description:
+  SetFlag:
+    description:
+  TestFlag:
+    description:
