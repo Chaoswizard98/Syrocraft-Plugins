@@ -38,6 +38,8 @@ commands:
     description:
   GetVoteDrop:
     description:
+  GetNbt:
+    description: Get the Nbt of the item in the players main hand.
   Playtime:
     description:
   ClaimVoteRewards:

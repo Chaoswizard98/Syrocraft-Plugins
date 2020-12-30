@@ -61,6 +61,7 @@ import syrocraft.titles.tabCompleters.SetTitleTabCompleter;
 import syrocraft.titles.tabCompleters.UnlockedTitlesTabCompleter;
 import syrocraft.utilityCommands.commands.ClaimVoteRewardsCommand;
 import syrocraft.utilityCommands.commands.GetBossDropCommand;
+import syrocraft.utilityCommands.commands.GetNbtCommand;
 import syrocraft.utilityCommands.commands.GetVoteDropCommand;
 import syrocraft.utilityCommands.commands.GetWishingWellDropCommand;
 //import syrocraft.utilityCommands.commands.ParticleSphereCommand;
@@ -70,6 +71,7 @@ import syrocraft.utilityCommands.commands.SyroMessageCommand;
 //import syrocraft.utilityCommands.commands.temp_command;
 import syrocraft.utilityCommands.tabCompleters.ClaimVoteRewardsTabCompleter;
 import syrocraft.utilityCommands.tabCompleters.GetBossDropTabCompleter;
+import syrocraft.utilityCommands.tabCompleters.GetNbtTabCompleter;
 import syrocraft.utilityCommands.tabCompleters.GetVoteDropTabCompleter;
 import syrocraft.utilityCommands.tabCompleters.GetWishingWellDropTabCompleter;
 import syrocraft.utilityCommands.tabCompleters.SeenListTabCompleter;
@@ -200,7 +202,7 @@ public class Main extends JavaPlugin implements Listener {
 		this.getCommand("ClaimVoteRewards").setExecutor(new ClaimVoteRewardsCommand(this));//Claim Vote Rewards Command
 		this.getCommand("GetWishingWellDrop").setExecutor(new GetWishingWellDropCommand(this));//Get Wishing Well Drop Command
 		this.getCommand("GetBossDrop").setExecutor(new GetBossDropCommand(this));//Get Boss Drop Command
-		
+		this.getCommand("GetNbt").setExecutor(new GetNbtCommand(this));//Get NBT Command
 		this.getCommand("SyroExecute").setExecutor(new SyroExecuteCommand(this));//Syro Execute Command
 		this.getCommand("SeenList").setExecutor(new SeenListCommand(this));//Seen List Command
 		this.getCommand("SyroMessage").setExecutor(new SyroMessageCommand(this));
@@ -214,6 +216,7 @@ public class Main extends JavaPlugin implements Listener {
 		this.getCommand("ClaimVoteRewards").setTabCompleter(new ClaimVoteRewardsTabCompleter(this));//Claim Vote Rewards Command
 		this.getCommand("GetWishingWellDrop").setTabCompleter(new GetWishingWellDropTabCompleter(this));//Get Wishing Well Drop Command
 		this.getCommand("GetBossDrop").setTabCompleter(new GetBossDropTabCompleter(this));//Get Boss Drop Command
+		this.getCommand("GetNbt").setTabCompleter(new GetNbtTabCompleter(this));//Get NBT Command
 		this.getCommand("SeenList").setTabCompleter(new SeenListTabCompleter(this));//Seen List Command
 		this.getCommand("SetFlag").setTabCompleter(new SetFlagTabCompleter(this));//Seen List Command
 		this.getCommand("TestFlag").setTabCompleter(new TestFlagTabCompleter(this));
